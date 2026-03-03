@@ -1,0 +1,8 @@
+# GhostDrop dependencies
+# All packages have pre-built wheels for Windows, macOS, and Linux on PyPI.
+# No C compiler or system libraries needed.
+
+cryptography>=42.0.0   # X25519 ECDH + AES-256-GCM — pre-built wheels on all platforms
+tqdm>=4.66.0           # Progress bars
+colorama>=0.4.6        # Cross-platform terminal colors (essential on Windows)
+pyfiglet>=1.0.2        # ASCII banner
